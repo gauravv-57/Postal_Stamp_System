@@ -1,0 +1,86 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* App.css */
+
+/* App.css */
+
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.bg-flag {
+  /* Smooth gradient with blended colors for a subtle waving flag effect */
+  background: linear-gradient(
+    45deg,         /* Diagonal gradient */
+    white 40%,     /* Start with green */
+    white 50%,     /* Blend into white in the middle */
+    white 60%     /* End with orange */
+  );
+  background-size: 200% 200%;
+  animation: wave 0.01s linear infinite !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 45% 50%;  /* Start position closer to center */
+  }
+  50% {
+    background-position: 55% 50%;  /* Less movement, stays near the center */
+  }
+  100% {
+    background-position: 45% 50%;  /* Return to the start position */
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
