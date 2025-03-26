@@ -63,7 +63,7 @@ This project provides a unified web platform for Indian stamp collectors using t
 
 - [Puransh Kawdia]()
 - [Yash Kadam]()
-- [Gaurav Jadhav]()
+- [Gaurav Jadhav](https://github.com/gauravv-57)
 - [Ruchi Ingale]()
 - [Shon Solanke]()
 - [Priyank Jhaveri](https://github.com/SuperJPcoder)
